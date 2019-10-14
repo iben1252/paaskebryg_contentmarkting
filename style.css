@@ -1,0 +1,301 @@
+/*Variables*/
+
+:root {
+    --bg-color: #d96299;
+    --link-color: #f2b749;
+    --link-hover-color: #f2994b;
+    --color-4: #d7f1f0;
+    --color-5: #9bd9f2;
+
+    --primary-font: 'Poiret One', sans-serif;
+    --secondary-font: 'Gill Sans', sans-serif;
+    --main-text-color: #000;
+
+    --white-space: 1rem;
+}
+
+/* CSS Fonts */
+
+html {
+    font-size: 100%;
+    font-weight: 300;
+    font-family: var(--secondary-font);
+    font-size: 1.2em;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
+    font-family: var(--primary-font);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+
+#top,
+#middle-top,
+#middle-bottom,
+#bottom {
+    padding: 1.5em;
+}
+
+/* CSS Instagram */
+#instagram {
+    display: flex;
+}
+
+#instagram-feed-demo {
+    padding: 1em;
+    display: block;
+}
+
+.instagram_profile {
+    text-align: center;
+}
+
+.instagram_profile_image {
+    border-radius: 10em;
+    width: 15%;
+    max-width: 125px;
+    min-width: 50px;
+}
+
+.instagram_username {
+    font-size: 1.2em;
+}
+
+.instagram_biography {
+    font-size: 1em;
+}
+
+.instagram_gallery {
+    margin: 1% 1%;
+    width: 31.333333333333332%;
+    display: flex;
+}
+
+.instagram_image {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* CSS Overall */
+
+.img-fluid {
+    width: 100%;
+}
+
+#instagram-border {
+    background-image: url(img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+#instagram-feed-demo {
+    background-color: white;
+    border-radius: 2em;
+}
+
+#footer .txt {
+    background-color: var(--bg-color);
+    color: white;
+    padding: none;
+}
+
+
+.splash {}
+
+#hero {
+    /*	background-image: url(img/il_fullxfull.1304380062_3mgj.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    overflow: auto;
+    width: 100%;
+}
+
+#hero .txt {
+    color: var(--bg-color);
+    position: relative;
+    text-align: center;
+    margin: 11.5em;
+}
+
+.imgproduct {
+    background-image: url(img/kanin-behandling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+#top {
+    background-color: var(--color-5);
+    color: white;
+}
+
+header {
+    display: block;
+    text-decoration: none;
+}
+
+nav {
+    text-decoration: none;
+    overflow: hidden;
+    border: 0.4em solid var(--link-color);
+    display: flex;
+    padding: 1em;
+}
+
+.navbar-brand img {
+    margin: 1em;
+    width: 12.5em;
+}
+
+.logo {
+    width: 100%;
+}
+
+#nav-bar,
+#nav-pills {
+    flex-direction: row;
+}
+
+#nav-pills {
+    padding: 1em;
+}
+
+
+ul,
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3em;
+    font-size: 1.15em;
+    overflow: hidden;
+}
+
+#middle-top .img .flavour {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li a {
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-right: 0.6em;
+    flex-wrap: wrap;
+    font-size: 0.85em;
+    color: var(--link-color);
+}
+
+#button {
+    display: flex;
+}
+
+button {
+    align-self: flex-end;
+    font-size: 1.5em;
+    font-family: var(--secondary-font);
+    background-color: transparent;
+    border-radius: 0;
+    background-color: var(--link-color);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--link-hover-color);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*---- MEDIA QUERY ----*/
+
+@media only screen and (min-width: 768px) {
+
+    ul,
+    li {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li a {
+        padding: 0.5em;
+    }
+
+    html {
+        font-size: 1em;
+    }
+
+    nav {
+        height: 7em;
+    }
+
+    .insta-logo {
+        width: 4.5em;
+    }
+
+    .navbar-brand img {
+        width: 8.5em;
+        margin: 1em;
+    }
+
+    .nav-item .nav-link .insta-logo {
+        margin: 0em;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand img {
+        align-self: center;
+        position: relative;
+    }
+
+    /*
+	.nav-pills {
+		float: right;
+	}
+*/
+
+    .insta-logo {
+        width: 4em;
+    }
+
+}
