@@ -145,6 +145,7 @@ h2 {
     margin: 11.5em;
 }
 
+/*
 .imgproduct {
     background-image: url(img/kanin-behandling.jpg);
     background-repeat: no-repeat;
@@ -152,11 +153,11 @@ h2 {
     background-position: center;
     width: 100%;
 }
+*/
 
 
 #top {
-    background-color: var(--color-5);
-    color: white;
+    color: black;
 }
 
 header {
@@ -216,6 +217,7 @@ li a {
 
 #button {
     display: flex;
+    flex-direction: row-reverse;
 }
 
 button {
@@ -232,6 +234,8 @@ button {
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 15px;
+
 }
 
 button:hover {
@@ -243,8 +247,30 @@ button a {
     color: black;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url('IMG_3552.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 /*---- MEDIA QUERY ----*/
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -296,6 +322,56 @@ button a {
 
     .insta-logo {
         width: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    #instagram-border {
+        padding: 0.9em;
+    }
+
+    #text {
+        text-align: center;
+    }
+    #button {
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        align-self: center;
+        font-size: 1em;
+        font-family: var(--secondary-font);
+        background-color: transparent;
+        border-radius: 0;
+        background-color: var(--link-color);
+        border: none;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 2px 2px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    button:hover {
+        background-color: var(--link-hover-color);
+    }
+
+    button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        font-weight: 1000;
+    }
+
+    p{
+        font-size: 1.1em;
     }
 
 }
