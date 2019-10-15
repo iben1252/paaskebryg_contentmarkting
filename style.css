@@ -105,6 +105,10 @@ h2 {
     width: 100%;
 }
 
+.img-fluid-2 {
+    width:;
+}
+
 #instagram-border {
     background-image: url(img/instagram.png);
     background-repeat: no-repeat;
@@ -145,7 +149,6 @@ h2 {
     margin: 11.5em;
 }
 
-/*
 .imgproduct {
     background-image: url(img/kanin-behandling.jpg);
     background-repeat: no-repeat;
@@ -153,7 +156,6 @@ h2 {
     background-position: center;
     width: 100%;
 }
-*/
 
 
 #top {
@@ -247,30 +249,11 @@ button a {
     color: black;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url('IMG_3552.jpg');
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 
 /*---- MEDIA QUERY ----*/
 
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
 
 @media only screen and (min-width: 768px) {
 
@@ -334,6 +317,7 @@ button a {
     #text {
         text-align: center;
     }
+
     #button {
         display: flex;
         justify-content: center;
@@ -370,7 +354,7 @@ button a {
         font-weight: 1000;
     }
 
-    p{
+    p {
         font-size: 1.1em;
     }
 
