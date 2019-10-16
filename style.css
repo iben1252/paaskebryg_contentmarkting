@@ -297,8 +297,12 @@ button a {
 
     .img-fluid-2 {
         display: block;
-        width: 10
-            0%;
+        width: 100%;
+    }
+
+    .img-fluid {
+        display: block;
+        width: 100%;
     }
 }
 
