@@ -304,7 +304,14 @@ button a {
         display: block;
         width: 100%;
     }
+
+    .img-fluid_3 {
+        display: block;
+        width: 70%;
+        margin: 6em;
+    }
 }
+
 
 
 @media only screen and (max-width: 768px) {
