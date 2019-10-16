@@ -271,6 +271,13 @@ button a {
     padding-top: 50px;
 }
 
+#boks {
+    flex-wrap: wrap;
+    margin: 2vw;
+    font-family: var (--secondary-font);
+
+}
+
 
 /*---- MEDIA QUERY ----*/
 
