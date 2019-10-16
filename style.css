@@ -110,6 +110,7 @@ h2 {
     width: 100%;
 }
 
+
 #instagram-border {
     background-image: url(img/instagram.png);
     background-repeat: no-repeat;
@@ -257,6 +258,18 @@ button a {
     color: black;
 }
 
+.kontaktfooter {
+    font-size: 10pt;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.some {
+    font-size: 10pt;
+    padding-left: 50px;
+    padding-top: 50px;
+}
 
 
 /*---- MEDIA QUERY ----*/
@@ -381,4 +394,9 @@ button a {
         font-size: 1.1em;
     }
 
+    .img-fluid_3 {
+        display: block;
+        width: 70%;
+        margin: 3em;
+    }
 }
