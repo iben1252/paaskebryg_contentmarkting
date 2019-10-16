@@ -49,6 +49,7 @@ h1 {
 
 h2 {
     font-size: 2.2em;
+
 }
 
 
@@ -56,7 +57,7 @@ h2 {
 #middle-top,
 #middle-bottom,
 #bottom {
-    padding: 1.5em;
+    /*    padding: 1.5em;*/
 }
 
 /* CSS Instagram */
@@ -106,7 +107,7 @@ h2 {
 }
 
 .img-fluid-2 {
-    width:;
+    width: 100%;
 }
 
 #instagram-border {
@@ -150,13 +151,19 @@ h2 {
 }
 
 .imgproduct {
-    background-image: url(img/kanin-behandling.jpg);
-    background-repeat: no-repeat;
+    background-image: url("img/skovbund_6.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    padding: 5%;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    text-align: center;
 }
 
+
+.imgproduct .txt-item h2 {
+    color: white;
+}
 
 #top {
     color: black;
@@ -208,6 +215,7 @@ li {
     flex-wrap: wrap;
 }
 
+
 li a {
     text-decoration: none;
     text-decoration-style: none;
@@ -251,7 +259,6 @@ button a {
 
 
 
-
 /*---- MEDIA QUERY ----*/
 
 
@@ -288,6 +295,11 @@ button a {
         margin: 0em;
     }
 
+    .img-fluid-2 {
+        display: block;
+        width: 10
+            0%;
+    }
 }
 
 
