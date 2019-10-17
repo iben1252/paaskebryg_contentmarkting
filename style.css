@@ -132,23 +132,27 @@ h2 {
     padding: none;
 }
 
+#footer p {
+    font-size: 1.2em;
+
+}
 
 .splash {}
 
 #hero {
-    /*	background-image: url(img/il_fullxfull.1304380062_3mgj.jpg);*/
-    background-repeat: no-repeat;
+    background-image: url("img/paaskebryg.jpg");
     background-size: cover;
-    background-position: center top;
-    overflow: auto;
-    width: 100%;
 }
 
 #hero .txt {
     color: var(--bg-color);
     position: relative;
-    text-align: center;
-    margin: 11.5em;
+    text-align: left;
+    margin-top: 18em;
+    margin-bottom: 18em;
+    background-size: cover;
+    margin-right: 17em;
+
 }
 
 .imgproduct {
@@ -274,7 +278,11 @@ button a {
 #boks {
     flex-wrap: wrap;
     margin: 2vw;
+    padding: 20px;
     font-family: var (--secondary-font);
+    word-spacing: 30px;
+    text-align: center;
+    font-size: 1.2em
 
 }
 

@@ -12,35 +12,33 @@
 
 <body class="position-relative" data-spy="scroll" data-target="nav-bar" data-offset="156">
 
-    <main class="container-fluid">
-        <header>
-            <nav id="nav-bar" class="navbar navbar-light bg-light fixed-top sticky-top justify-content-center">
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#top">Kampagnevideo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#middle-top">Om påskebryggen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#middle-bottom">Konkurrencer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#bottom">Om Ørbæk Bryggeri</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
 
-        <section id="hero" class="row">
-            <div class="splash" data-parallax="scroll" data-position="0-200px" data-anchor-target="#hero">
-                <img src="img/paaskebryg.jpg" class="img-fluid" alt="paeskebryg">
-                <div class="txt col-md-12 d-block mx-auto">
-                    <h1 class="txt-item ml-5 mr-5 mb-0">Projekt: Påskebryggen</h1>
-                    <h5 class="txt-item ml-5 mr-5">Et projektopgave på MMD-uddannelsen KEA '19</h5>
-                </div>
+    <header id="hero">
+        <nav id="nav-bar" class="navbar navbar-light bg-light fixed-top sticky-top justify-content-center">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">Kampagnevideo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#middle-top">Om påskebryggen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#middle-bottom">Konkurrencer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bottom">Om Ørbæk Bryggeri</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="hero_text" class="row">
+            <div class="txt col-md-6 d-block mx-auto">
+                <h1 class="txt-item ml-2 mr-2 mb-0">Ørbæk Påskebryggen</h1>
             </div>
         </section>
+
+    </header>
+
+    <main class="container-fluid">
 
         <section id="top" class="row">
             <div class="video col-lg-8 d-md-flex flex-md-column">
@@ -83,7 +81,7 @@
 
         <section id="middle-bottom" class="row">
             <div class="col-lg-6 d-md-flex flex-md-column">
-                <img src="img/dl-kaniner-18.jpg" class="img-fluid" alt="info">
+                <img src="img/ol-i-hul.jpg" class="img-fluid" alt="info">
             </div>
             <div class="txt col-lg-6 m-md-auto pr-lg-5 pl-lg-5 p-md-4 p-3">
                 <h2>Konkurrencer</h2>
@@ -108,7 +106,9 @@
 
         <section id="instagram">
             <div id="instagram-border">
-                <div id="instagram-feed-demo" class="instagram-feed m-md-auto"></div>
+                <div id="instagram-feed-demo" class="instagram-feed m-md-auto">
+                    <div class="items"></div>
+                </div>
             </div>
         </section>
 
@@ -116,7 +116,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12 projekt">
                 <p>Denne hjemmeside er ikke associeret eller tilknyttet Ørbæk Bryggeri på nogen måder. Produktet, Påskebryggen bliver blot brugt til et skoleprojekt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut venenatis tellus.</p>
             </div>
-            <div claclass="col-md-4 col-sm-4  col-xs-12  kontaktfooter">
+            <div claclass="col-md-4 col-sm-4 col-xs-12 kontaktfooter">
                 <div id="boks">
                     <p>Åbningstider:<br>
                         Mandag 9.00 - 15.00<br>
@@ -128,10 +128,10 @@
                         Søndag LUKKET</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4  col-xs-12  kontaktfooter">
+            <div class="col-md-4 col-sm-4 col-xs-12 kontaktfooter">
                 <p>Adresse:<br>
-                 Assensvej 38<br>
-                5853 Ørbæk
+                    Assensvej 38<br>
+                    5853 Ørbæk
                 </p>
             </div>
         </section>
